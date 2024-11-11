@@ -1,0 +1,8 @@
+{
+    "role_arn": "arn:aws:iam::your-account-id:role/SageMakerRole",
+    "training_image_uri": "382416733822.dkr.ecr.us-west-2.amazonaws.com/linear-learner:latest",
+    "s3_training_data_uri": "s3://your-bucket-name/preprocessed_data.csv",
+    "s3_model_output_uri": "s3://your-bucket-name/model_output",
+    "endpoint_name": "ecommerce-prediction-endpoint"
+  }
+  
